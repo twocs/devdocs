@@ -9,6 +9,7 @@ gem 'wdm' if Gem.win_platform?
 
 group :test do
   gem 'html-proofer'
+  gem "mdl"
   gem 'launchy'
 end
 

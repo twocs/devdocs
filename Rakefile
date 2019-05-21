@@ -60,3 +60,6 @@ end
 
 desc 'Pull docs from external repositories'
 task init: %w[multirepo:init]
+
+desc 'Run linters'
+task lint: %w[lint:md]
