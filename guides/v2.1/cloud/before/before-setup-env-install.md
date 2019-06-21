@@ -67,9 +67,9 @@ You need Magento authentication keys to install Magento in your local developmen
 
 ## Set the docroot
 
-Set the `docroot` to the `/magento` directory until you complete all setup. If you change the `docroot` to `/magento/pub` prior to completion, you will encounter issues running the Web Setup Wizard.
+Set the `docroot` to the `<magento_root>` directory until you complete all setup. If you change the `docroot` to `<magento_root>/pub` prior to completion, you will encounter issues running the Web Setup Wizard.
 
-For the Production environment, set the `docroot` to `/magento/pub`, which helps restrict access to vulnerable areas of the system. The webserver `docroot` should be set to `/magento/pub` only after Magento is installed (including any upgrades and patches), configured, and static files generated and populated in `/magento/pub`. Alternatively, you could create a subdomain (for example, `install.domain.com`) and configure your webserver `docroot` to the Magento installed root folder.
+For the Production environment, set the `docroot` to `<magento_root>/pub`, which helps restrict access to vulnerable areas of the system. The webserver `docroot` should be set to `<magento_root>/pub` only after Magento is installed (including any upgrades and patches), configured, and static files generated and populated in `<magento_root>/pub`. Alternatively, you could create a subdomain (for example, `install.domain.com`) and configure your webserver `docroot` to the Magento installed root folder.
 
 ## Set file system permissions and ownership {#file-system-permissions}
 
