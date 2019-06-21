@@ -62,7 +62,7 @@ To add a permanent theme-independent logo:
 7. If caching is enabled, [clear the cache](#theme-apply-clear).
 8. To see your changes applied, reload the storefront pages.
 
-The logo you add here is stored in the `/pub/media/logo/default/` directory.
+The logo you add here is stored in the `pub/media/logo/default/` directory.
 
 {:.bs-callout .bs-callout-warning}
 To delete the permanent logo, go to the same location, and click the "Delete image" icon in the bottom left corner of the logo preview, then click the "Save Configuration button".
